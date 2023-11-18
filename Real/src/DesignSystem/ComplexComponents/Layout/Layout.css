@@ -1,0 +1,28 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .layout {
+      flex-direction: row;
+    }
+  
+    .content {
+      flex: 2;
+    }
+  }
+  

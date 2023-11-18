@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .noOrganizations {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .organizationItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    padding: 16px;
+  }
+
+  .orgColItem {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
